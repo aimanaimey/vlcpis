@@ -1,0 +1,117 @@
+.wallpaper-container {
+    color: white;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+}
+
+.wallpaper-picture {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 70px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-picture {
+    width: 100%;
+}
+
+.logo-main-container {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.logo-text-container {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 8px;
+}
+
+.logo-text-container .text {
+    margin: 0;
+    margin-top: 5px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+.call-for-abstracts {
+    color: rgb(165, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 0;
+}
+
+.call-for-abstracts p {
+    padding: 13px;
+    margin: 0;
+}
+
+.call-for-abstracts span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.call-for-abstracts span:hover {
+    color: blue;
+}
+
+.call-for-abstracts span:active {
+    color: black;
+}
+
+.important {
+    background-color: rgb(163, 0, 0);
+    display: flex;
+    color: white;
+    padding: 5px 12px;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+@media (max-width: 700px) {
+    .logo-text-container .text {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    .logo-text-container .text {
+        font-size: 20px;
+    }
+}
+
