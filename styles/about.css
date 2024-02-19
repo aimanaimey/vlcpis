@@ -1,0 +1,60 @@
+.subtitle {
+    display: flex;
+    background-color: rgb(66, 30, 0);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+li {
+    padding: 5px 0;
+}
+
+.keynote-speakers-container {
+    display: flex;
+    flex: 1fr;
+    margin: 20px 0;
+    margin-bottom: 80px;
+    align-items: start;
+}
+
+.keynote-speaker-small-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    object-position: center;
+    padding: 10px;
+}
+
+.keynote-speaker-picture {
+    width: 100%;
+    max-width: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    object-fit: cover;
+}
+
+.keynote-speaker-name {
+    font-weight: bold;
+    text-indent: 0;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+}
+
+.keynote-speaker-university {
+    text-indent: 0;
+    font-size: 14px;
+    margin: 0;
+}
