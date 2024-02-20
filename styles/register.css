@@ -1,0 +1,16 @@
+.not-yet-open {
+    color: red;
+}
+
+.not-yet-open span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.not-yet-open span:hover {
+    color: blue;
+}
+
+.not-yet-open span:active {
+    color: black;
+}
