@@ -24,6 +24,8 @@ li {
     margin-bottom: 80px;
     align-items: start;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
 }
 
 .keynote-speaker-small-container {
