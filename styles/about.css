@@ -26,7 +26,7 @@ li {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.keynote-speaker-small-grid {
+.keynote-speaker-small-container {
     display: flex;
     flex-direction: column;
     width: 100%;
