@@ -18,3 +18,7 @@ main {
     text-align: center;
     font-weight: bold;
 }
+
+.subtitle h1 {
+    margin: 5px;
+}
